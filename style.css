@@ -6,21 +6,20 @@
     --font-small-color: rgb(136, 136, 136);
     --transition-duration: 0.6s;
 }
+
 /* end variabbles */
+/* start global rules */
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-
-/* start global rules */
 body {
     font-family: "Inter", sans-serif;
     font-style: normal;
     width: 100%;
     height: 100vh;
 }
-
 ul {
     margin: 0;
     padding: 0;
@@ -36,47 +35,52 @@ body {
 }
 
 .main {
-    padding: 20px 30px;
+    padding: 20px 40px;
     background-color: var(--main-background);
     text-align: center;
     border-radius: 15px;
 }
+
 .main img {
     width: 90px;
     border-radius: 50%;
 }
+
 .main h2 {
     color: var(--mainColor);
     margin: 15px 0px 10px 0;
     font-size: 27px;
 }
+
 .main h4 {
     color: var(--font-background);
     font-size: 15px;
     margin-bottom: 30px;
 }
+
 .main h6 {
     color: rgb(197, 197, 197);
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
 .main ul li {
     background-color: rgb(51, 51, 51);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 13px 100px;
+    border-radius: 5px;
     margin-bottom: 15px;
     transition: var(--transition-duration);
 }
+
 .main ul li:hover {
     background-color: var(--font-background);
 }
 .main ul li p {
     color: var(--mainColor);
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
     transition: var(--transition-duration);
 }
-.main ul li:hover p{
+.main ul li:hover p {
     color: black;
 }
-/* end global rules */
