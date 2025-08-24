@@ -5,9 +5,7 @@
     --font-background: rgb(199, 244, 57);
     --font-small-color: rgb(136, 136, 136);
     --transition-duration: 0.6s;
-
 }
-
 /* end variabbles */
 * {
     box-sizing: border-box;
@@ -39,41 +37,29 @@ body {
 
 .main {
     padding: 20px 30px;
-    background-color: rgb(31, 31, 31);
+    background-color: var(--main-background);
     text-align: center;
     border-radius: 15px;
 }
-
 .main img {
     width: 90px;
     border-radius: 50%;
-    display: inline-block;
-    /* padding-top: 15px; */
 }
-
 .main h2 {
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    color: var(--mainColor);
+    margin: 15px 0px 10px 0;
     font-size: 27px;
 }
-
 .main h4 {
     color: var(--font-background);
     font-size: 15px;
     margin-bottom: 30px;
 }
-
 .main h6 {
     color: rgb(197, 197, 197);
     font-size: 15px;
     margin-bottom: 30px;
 }
-
-.main ul {
-    /* background-color: white; */
-}
-
 .main ul li {
     background-color: rgb(51, 51, 51);
     padding: 20px;
@@ -81,13 +67,11 @@ body {
     margin-bottom: 15px;
     transition: var(--transition-duration);
 }
-
 .main ul li:hover {
     background-color: var(--font-background);
 }
-
 .main ul li p {
-    color: white;
+    color: var(--mainColor);
     font-size: 17px;
     font-weight: bold;
     transition: var(--transition-duration);
@@ -95,5 +79,4 @@ body {
 .main ul li:hover p{
     color: black;
 }
-
 /* end global rules */
